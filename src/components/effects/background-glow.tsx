@@ -1,11 +1,4 @@
-import type { ReactNode } from "react"
-
-interface BackgroundGlowProps {
-  children?: ReactNode
-  className?: string
-}
-
-function BackgroundGlow({ className }: BackgroundGlowProps) {
+function BackgroundGlow() {
   return (
     <div className="absolute inset-0 -z-10 overflow-hidden" aria-hidden="true">
       <div

@@ -4,7 +4,6 @@ import { useScrollReveal } from "@/hooks/use-scroll-reveal"
 import { motion } from "framer-motion"
 import { Container } from "@/components/ui/container"
 import { Section } from "@/components/ui/section"
-import { cn } from "@/lib/cn"
 
 const COMPANIES = [
   "Vercel",

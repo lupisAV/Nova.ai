@@ -1,6 +1,5 @@
 "use client"
 
-import { useRef } from "react"
 import { useScrollReveal } from "@/hooks/use-scroll-reveal"
 import { motion, useSpring, useTransform, useMotionValue } from "framer-motion"
 import { Container } from "@/components/ui/container"
@@ -18,7 +17,6 @@ function AnimatedStat({
   prefix?: string
   suffix?: string
 }) {
-  const ref = useRef<HTMLDivElement>(null)
   const motionValue = useMotionValue(0)
   const springValue = useSpring(motionValue, {
     stiffness: 80,

@@ -124,13 +124,13 @@ function CodeSnippet() {
       <span className="text-cyan-400">&quot;@nova/sdk&quot;</span>
       <br />
       <br />
-      <span className="text-white/40">// Create an AI workflow in seconds</span>
+      <span className="text-white/40">{`// Create an AI workflow in seconds`}</span>
       <br />
       <span className="text-violet-400">const</span>{" "}
       <span className="text-cyan-300">workflow</span>{" "}
       <span className="text-white/60">=</span>{" "}
       <span className="text-amber-300">Nova</span>
-      <span className="text-white/60">.create({</span>
+      <span className="text-white/60">.create(&#123;</span>
       <br />
       <span className="text-white/60">&nbsp;&nbsp;name: </span>
       <span className="text-emerald-300">&quot;ship-faster&quot;</span>
@@ -139,7 +139,7 @@ function CodeSnippet() {
       <span className="text-white/60">&nbsp;&nbsp;ai: </span>
       <span className="text-violet-300">true</span>
       <br />
-      <span className="text-white/60">{")"}</span>
+      <span className="text-white/60">&#125;);</span>
       <br />
       <br />
       <span className="animate-pulse text-emerald-400">▌</span>
