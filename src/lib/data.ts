@@ -129,21 +129,21 @@ export const INTEGRATIONS: { name: string; icon: LucideIcon }[] = [
 
 export const TESTIMONIALS = [
   {
-    name: "Sarah Chen",
+    name: "Erik Thompson",
     role: "CTO at Vercel",
     quote:
       "Nova has completely transformed how our engineering team operates. We've reduced our deployment cycle from 2 weeks to 2 days. The AI-powered insights are genuinely game-changing.",
     avatar: "SC",
   },
   {
-    name: "Marcus Rivera",
+    name: "Andrew Lee",
     role: "VP Engineering at Stripe",
     quote:
       "The automation capabilities are unlike anything I've seen. Nova handles our complex workflows effortlessly, and the real-time collaboration features keep our distributed team perfectly synchronized.",
     avatar: "MR",
   },
   {
-    name: "Emily Nakamura",
+    name: "Emily Chen",
     role: "Head of Product at Linear",
     quote:
       "We evaluated 12 platforms before choosing Nova. The combination of powerful AI, elegant UX, and enterprise-grade security made it an obvious choice. Our team productivity doubled in the first month.",
